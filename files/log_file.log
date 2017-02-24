@@ -1,0 +1,81 @@
+2017-02-23 17:10:41 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-02-23 17:10:41 ERROR Tasks:34 - File not found
+2017-02-23 17:10:41 INFO  Tasks:35 - Add in calendar list succes
+2017-02-23 17:11:20 INFO  Task:87 - Task "Task1" created. Start date: [2017-02-23 17:12:34.000] End date: [2017-02-24 23:42:23.000]. Active: false
+2017-02-23 17:11:22 INFO  Task:129 - "Task1" changed the status from: false to true
+2017-02-23 17:11:22 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-23 17:11:22 INFO  TaskIO:101 - Text writing task SUCCESSFUL
+2017-02-23 17:11:37 INFO  Task:87 - Task "Task1" created. Start date: [2017-02-23 17:12:34.000] End date: [2017-02-24 23:42:23.000]. Active: false
+2017-02-23 17:11:37 INFO  Task:129 - "Task1" changed the status from: false to true
+2017-02-23 17:11:37 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-23 17:11:37 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-02-23 17:11:37 ERROR Tasks:34 - File not found
+2017-02-23 17:11:37 INFO  Tasks:35 - Add in calendar list succes
+2017-02-23 17:12:48 INFO  Task:87 - Task "Task1" created. Start date: [2017-02-23 17:12:34.000] End date: [2017-02-24 23:42:23.000]. Active: false
+2017-02-23 17:12:48 INFO  Task:129 - "Task1" changed the status from: false to true
+2017-02-23 17:12:48 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-23 17:12:48 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-02-23 17:12:48 ERROR Tasks:34 - File not found
+2017-02-23 17:12:48 INFO  Tasks:35 - Add in calendar list succes
+2017-02-23 17:13:06 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-23 17:13:06 INFO  Tasks:35 - Add in calendar list succes
+2017-02-23 17:13:51 INFO  Task:87 - Task "Task1" created. Start date: [2017-02-23 17:12:34.000] End date: [2017-02-24 23:42:23.000]. Active: false
+2017-02-23 17:13:51 INFO  Task:129 - "Task1" changed the status from: false to true
+2017-02-23 17:13:51 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-23 17:13:51 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-02-23 17:13:51 INFO  Task:87 - Task "Task1" created. Start date: [2017-02-23 17:12:34.000] End date: [2017-02-24 23:42:23.000]. Active: false
+2017-02-23 17:13:51 INFO  Task:129 - "Task1" changed the status from: false to true
+2017-02-23 17:13:51 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-23 17:13:51 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-02-23 17:13:51 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-23 17:13:51 INFO  Tasks:35 - Add in calendar list succes
+2017-02-23 17:14:04 INFO  Tasks:48 - The Task1 is done.
+2017-02-24 10:41:34 INFO  Task:87 - Task "Task1" created. Start date: [2017-02-23 17:12:34.000] End date: [2017-02-24 23:42:23.000]. Active: false
+2017-02-24 10:41:34 INFO  Task:129 - "Task1" changed the status from: false to true
+2017-02-24 10:41:34 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-24 10:41:34 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-02-24 10:41:34 INFO  Task:87 - Task "Task1" created. Start date: [2017-02-23 17:12:34.000] End date: [2017-02-24 23:42:23.000]. Active: false
+2017-02-24 10:41:34 INFO  Task:129 - "Task1" changed the status from: false to true
+2017-02-24 10:41:34 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-24 10:41:34 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-02-24 10:41:34 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-24 10:41:34 INFO  Tasks:35 - Add in calendar list succes
+2017-02-24 10:42:04 INFO  Tasks:48 - The Task1 is done.
+2017-02-24 10:42:10 INFO  Task:48 - Task "Task2" created. Start date: [2017-02-24 14:35:40.000]. Active: false
+2017-02-24 10:42:11 INFO  Task:129 - "Task2" changed the status from: false to true
+2017-02-24 10:42:11 INFO  ArrayTaskList:54 - The "Task2" added to ArrayList
+2017-02-24 10:42:11 INFO  TaskIO:101 - Text writing task SUCCESSFUL
+2017-02-24 10:42:34 INFO  Tasks:48 - The Task1 is done.
+2017-02-24 10:43:02 INFO  Task:87 - Task "Task3" created. Start date: [2017-02-24 11:11:11.000] End date: [2017-02-25 12:12:12.000]. Active: false
+2017-02-24 10:43:03 INFO  Task:129 - "Task3" changed the status from: false to true
+2017-02-24 10:43:03 INFO  ArrayTaskList:54 - The "Task3" added to ArrayList
+2017-02-24 10:43:03 INFO  TaskIO:101 - Text writing task SUCCESSFUL
+2017-02-24 10:43:04 INFO  Tasks:48 - The Task1 is done.
+2017-02-24 10:44:05 INFO  Task:87 - Task "Task1" created. Start date: [2017-02-23 17:12:34.000] End date: [2017-02-24 23:42:23.000]. Active: false
+2017-02-24 10:44:05 INFO  Task:129 - "Task1" changed the status from: false to true
+2017-02-24 10:44:05 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-24 10:44:05 INFO  Task:48 - Task "Task2" created. Start date: [2017-02-24 14:35:40.000]. Active: false
+2017-02-24 10:44:05 INFO  Task:129 - "Task2" changed the status from: false to true
+2017-02-24 10:44:05 INFO  ArrayTaskList:54 - The "Task2" added to ArrayList
+2017-02-24 10:44:06 INFO  Task:87 - Task "Task3" created. Start date: [2017-02-24 11:11:11.000] End date: [2017-02-25 12:12:12.000]. Active: false
+2017-02-24 10:44:06 INFO  Task:129 - "Task3" changed the status from: false to true
+2017-02-24 10:44:06 INFO  ArrayTaskList:54 - The "Task3" added to ArrayList
+2017-02-24 10:44:06 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-02-24 10:44:06 INFO  Task:87 - Task "Task1" created. Start date: [2017-02-23 17:12:34.000] End date: [2017-02-24 23:42:23.000]. Active: false
+2017-02-24 10:44:06 INFO  Task:129 - "Task1" changed the status from: false to true
+2017-02-24 10:44:06 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-24 10:44:06 INFO  Task:48 - Task "Task2" created. Start date: [2017-02-24 14:35:40.000]. Active: false
+2017-02-24 10:44:06 INFO  Task:129 - "Task2" changed the status from: false to true
+2017-02-24 10:44:06 INFO  ArrayTaskList:54 - The "Task2" added to ArrayList
+2017-02-24 10:44:06 INFO  Task:87 - Task "Task3" created. Start date: [2017-02-24 11:11:11.000] End date: [2017-02-25 12:12:12.000]. Active: false
+2017-02-24 10:44:06 INFO  Task:129 - "Task3" changed the status from: false to true
+2017-02-24 10:44:06 INFO  ArrayTaskList:54 - The "Task3" added to ArrayList
+2017-02-24 10:44:06 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-02-24 10:44:06 INFO  ArrayTaskList:54 - The "Task1" added to ArrayList
+2017-02-24 10:44:06 INFO  ArrayTaskList:54 - The "Task2" added to ArrayList
+2017-02-24 10:44:06 INFO  ArrayTaskList:54 - The "Task3" added to ArrayList
+2017-02-24 10:44:06 INFO  Tasks:35 - Add in calendar list succes
+2017-02-24 10:44:34 INFO  Tasks:48 - The Task1 is done.
+2017-02-24 10:45:00 INFO  Task:230 - "Task1" changed the start date from: [2017-02-23 17:12:34.000] to: [2017-02-24 11:11:11.000]. End date changed to: [2017-03-01 00:00:00.000]. Repeated
+2017-02-24 10:45:00 INFO  TaskIO:101 - Text writing task SUCCESSFUL
+2017-02-24 10:45:04 INFO  Tasks:48 - The Task1 is done.
