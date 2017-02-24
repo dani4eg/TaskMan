@@ -80,7 +80,7 @@
                             <children>
                                 <Button mnemonicParsing="false" text="New..." />
                                 <Button mnemonicParsing="false" text="Edit..." />
-                                <Button mnemonicParsing="false" text="Delete" />
+                                <Button mnemonicParsing="false" onAction="#deleteTask" text="Delete" />
                             </children>
                         </HBox>
                     </children>
