@@ -104,6 +104,9 @@ public class Task implements Cloneable, Serializable {
         return new SimpleStringProperty(title);
     }
 
+    public String getTitle2(){
+        return getTitlePropetry().get();
+    }
     /**
      * метод установлпения названия задачи
      * @param title название, которое надо поменять
