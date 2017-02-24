@@ -103,10 +103,6 @@ public class Task implements Cloneable, Serializable {
     public StringProperty getTitlePropetry() {
         return new SimpleStringProperty(title);
     }
-
-    public String getTitle2(){
-        return getTitlePropetry().get();
-    }
     /**
      * метод установлпения названия задачи
      * @param title название, которое надо поменять
@@ -235,6 +231,17 @@ public class Task implements Cloneable, Serializable {
                 sdate.format(start) + ". End date changed to: " +
                 sdate.format(this.end) + ". Repeated");
         this.start = start;
+        this.interval = interval;
+    }
+
+    public void setStart(Date start) {
+        this.start = start;
+    }
+
+    public void setEnd(Date end) {
+        this.end = end;
+    }
+    public void setInterval(int interval) {
         this.interval = interval;
     }
 

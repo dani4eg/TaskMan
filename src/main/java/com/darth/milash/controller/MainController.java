@@ -4,6 +4,7 @@ import com.darth.milash.model.ArrayTaskList;
 import com.darth.milash.model.Task;
 import com.darth.milash.model.TaskIO;
 import com.darth.milash.model.TaskList;
+import com.darth.milash.util.DateUtil;
 import javafx.beans.property.StringProperty;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -21,7 +22,7 @@ import java.util.Date;
 import java.util.Locale;
 
 public class MainController {
-    private static String formatDate = "dd MMM yyyy HH:mm:ss";
+    private static String formatDate = "dd.MM.yyyy HH:mm:ss";
     private static String fileName = "files/tFile.txt";
     private static TaskList list = new ArrayTaskList();
 
@@ -125,7 +126,45 @@ public class MainController {
             alert.setContentText("Please select a task in the table.");
             alert.showAndWait();
         }
+    }
+
+//    @FXML
+//    private void handleNewPerson() {
+//        Task tempTask = new Task();
+//        boolean okClicked = mainApp.showPersonEditDialog(tempTask);
+//        if (okClicked) {
+//            mainApp.getPersonData().add(tempTask);
+//        }
+//    }
+
+    @FXML
+    private void handleEditPerson() {
+        Task selectedPerson = taskTable.getSelectionModel().getSelectedItem();
+        int selectedIndex = taskTable.getSelectionModel().getSelectedIndex();
+        if (selectedPerson != null) {
+
+            boolean okClicked = mainApp.showPersonEditDialog(selectedPerson);
+            if (okClicked) {
+                showPersonDetails(selectedPerson);
+            }
+            list.getTask(selectedIndex).setTitle(selectedPerson.getTitle());
+            list.getTask(selectedIndex).setStart(selectedPerson.getStartTime());
+            list.getTask(selectedIndex).setEnd(selectedPerson.getEndTime());
+            list.getTask(selectedIndex).setInterval(selectedPerson.getInterval()*1000);
+            list.getTask(selectedIndex).setActive(selectedPerson.isActive());
+            TaskIO.writeText(list, new File(fileName));
 
 
+
+        } else {
+            // Ничего не выбрано.
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.initOwner(mainApp.getPrimaryStage());
+            alert.setTitle("No Selection");
+            alert.setHeaderText("No Person Selected");
+            alert.setContentText("Please select a person in the table.");
+
+            alert.showAndWait();
+        }
     }
 }

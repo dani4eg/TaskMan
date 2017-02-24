@@ -1,6 +1,7 @@
 package com.darth.milash;
 
 
+import com.darth.milash.controller.EditController;
 import com.darth.milash.controller.MainController;
 import com.darth.milash.model.ArrayTaskList;
 import com.darth.milash.model.Task;
@@ -13,6 +14,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import java.io.FileNotFoundException;
@@ -25,7 +27,7 @@ public class MainApp extends Application {
 
     private static TaskList list = new ArrayTaskList();
     private static String fileName = "files/tFile.txt";
-    private static String formatDate = "dd.MM.yyyy HH.mm.ss";
+    private static String formatDate = "dd.MM.yyyy HH:mm:ss";
     private Stage primaryStage;
     private BorderPane rootLayout;
     private ObservableList<Task> taskData = FXCollections.observableArrayList();
@@ -101,8 +103,39 @@ public class MainApp extends Application {
         for (int i = 0; i < list.size(); i++) {
             taskData.add(list.getTask(i));
         }
+    }
 
 
 
+
+    public boolean showPersonEditDialog(Task task) {
+        try {
+            // Загружаем fxml-файл и создаём новую сцену
+            // для всплывающего диалогового окна.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("/fxml/TaskEditDialog.fxml"));
+            AnchorPane page = (AnchorPane) loader.load();
+
+            // Создаём диалоговое окно Stage.
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("Edit Person");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(primaryStage);
+            Scene scene = new Scene(page);
+            dialogStage.setScene(scene);
+
+            // Передаём адресата в контроллер.
+            EditController controller = loader.getController();
+            controller.setDialogStage(dialogStage);
+            controller.setPerson(task);
+
+            // Отображаем диалоговое окно и ждём, пока пользователь его не закроет
+            dialogStage.showAndWait();
+
+            return controller.isOkClicked();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 }
