@@ -116,20 +116,25 @@ public class EditController {
         SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
         if (isInputValid()) {
             task.setTitle(title.getText());
-            try {
-                task.setStart(sdf.parse(start.getText()));
-            } catch (ParseException e) {
-                Alert alert = new Alert(Alert.AlertType.WARNING);
-                alert.setTitle("Incorrect Date");
-                alert.setHeaderText("Date is incorrect");
-                alert.setContentText("No valid date. Use the format dd.MM.yyyy HH:mm:ss!");
-                alert.showAndWait();
-            }
+
 
             try {
                 task.setInterval(Integer.parseInt(interval.getText()));
+                    try {
+                        task.setStart(sdf.parse(start.getText()));
+                        task.setEnd(sdf.parse(end.getText()));
+                        dialogStage.close();
+                    } catch (ParseException e1) {
+                        Alert alert = new Alert(Alert.AlertType.WARNING);
+                        alert.setTitle("Incorrect Date");
+                        alert.setHeaderText("Date is incorrect");
+                        alert.setContentText("No valid date. Use the format dd.MM.yyyy HH:mm:ss!");
+                        alert.showAndWait();
+                    }
+                }
+                catch (NumberFormatException n) {
                 try {
-                    task.setEnd(sdf.parse(end.getText()));
+                    task.setStart(sdf.parse(start.getText()));
                     dialogStage.close();
                 } catch (ParseException e) {
                     Alert alert = new Alert(Alert.AlertType.WARNING);
@@ -138,8 +143,6 @@ public class EditController {
                     alert.setContentText("No valid date. Use the format dd.MM.yyyy HH:mm:ss!");
                     alert.showAndWait();
                 }
-            } catch (NumberFormatException e) {
-                dialogStage.close();
             }
         }
 
@@ -147,10 +150,12 @@ public class EditController {
         if (active.getText().equals("YES") || active.getText().equals("yes") || active.getText().equals("y") || active.getText().equals("Y")) task.setActive(true);
         else task.setActive(false);
 
+
+
 //        for (int i = 0; i < list.size() ; i++) {
 //            if (list.getTask(i).equals(task)) {
 //                list.getTask(i).setTitle("HUY");
-//            }
+//                                                 }
 //            TaskIO.writeText(list, new File(fileName));
 //        }
 

@@ -104,7 +104,7 @@ public class MainController {
             title.setText(task.getTitle());
             start.setText(sdf.format(task.getStartTime()));
             end.setText(sdf.format(task.getEndTime()));
-            interval.setText(Integer.toString(task.getInterval()));
+            interval.setText(task.reInterval(task.getInterval()*1000));
             if (task.isActive()) active.setText("YES");
             else active.setText("NO");
         }
@@ -152,6 +152,7 @@ public class MainController {
             list.getTask(selectedIndex).setEnd(selectedPerson.getEndTime());
             list.getTask(selectedIndex).setInterval(selectedPerson.getInterval()*1000);
             list.getTask(selectedIndex).setActive(selectedPerson.isActive());
+            taskTable.getItems().set(selectedIndex, selectedPerson);
             TaskIO.writeText(list, new File(fileName));
 
 
