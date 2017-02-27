@@ -78,8 +78,8 @@
                         </GridPane>
                         <HBox alignment="BOTTOM_RIGHT" layoutX="168.0" layoutY="359.0" spacing="10.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="168.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="359.0">
                             <children>
-                                <Button mnemonicParsing="false" text="New..." />
-                                <Button mnemonicParsing="false" onAction="#handleEditPerson" text="Edit..." />
+                                <Button mnemonicParsing="false" onAction="#handleNewTask" text="New..." />
+                                <Button mnemonicParsing="false" onAction="#handleEditTask" text="Edit..." />
                                 <Button mnemonicParsing="false" onAction="#deleteTask" text="Delete" />
                             </children>
                         </HBox>

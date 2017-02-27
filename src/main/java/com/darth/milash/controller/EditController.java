@@ -1,10 +1,7 @@
 package com.darth.milash.controller;
 
 import com.darth.milash.MainApp;
-import com.darth.milash.model.ArrayTaskList;
-import com.darth.milash.model.Task;
-import com.darth.milash.model.TaskIO;
-import com.darth.milash.model.TaskList;
+import com.darth.milash.model.*;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
@@ -16,6 +13,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Locale;
 
 
@@ -52,8 +50,7 @@ public class EditController {
      * после того, как fxml-файл будет загружен.
      */
     @FXML
-    private void initialize() throws FileNotFoundException, ParseException {
-        TaskIO.read(list, new FileReader(fileName));
+    private void initialize() {
     }
 
     /**
@@ -70,7 +67,7 @@ public class EditController {
      *
      * @param task
      */
-    public void setPerson(Task task) {
+    public void setTask(Task task) {
         this.task = task;
 
         SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
@@ -93,11 +90,15 @@ public class EditController {
             title.setText(task.getTitle());
             start.setText(sdf.format(task.getStartTime()));
             end.setText(sdf.format(task.getEndTime()));
-            interval.setText(Integer.toString(task.getInterval()));
+            interval.setText(Integer.toString(task.getInterval()/1000));
             if (task.isActive()) active.setText("YES");
             else active.setText("NO");
         }
     }
+
+
+
+
 
     /**
      * Returns true, если пользователь кликнул OK, в другом случае false.
@@ -114,22 +115,24 @@ public class EditController {
     @FXML
     private void handleOk() {
         SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
+        Date startDate;
+        Date endDate;
         if (isInputValid()) {
+
             task.setTitle(title.getText());
-
-
             try {
-                task.setInterval(Integer.parseInt(interval.getText()));
+                task.setInterval(Integer.parseInt(interval.getText())*1000);
                     try {
-                        task.setStart(sdf.parse(start.getText()));
-                        task.setEnd(sdf.parse(end.getText()));
-                        dialogStage.close();
+                        startDate=sdf.parse(start.getText());
+                        endDate = sdf.parse(end.getText());
+                        if (startDate.before(endDate)) {
+                            task.setStart(startDate);
+                            task.setEnd(endDate);
+                            dialogStage.close();
+                        }
+                        else MyAlerts.timeDateAlert();
                     } catch (ParseException e1) {
-                        Alert alert = new Alert(Alert.AlertType.WARNING);
-                        alert.setTitle("Incorrect Date");
-                        alert.setHeaderText("Date is incorrect");
-                        alert.setContentText("No valid date. Use the format dd.MM.yyyy HH:mm:ss!");
-                        alert.showAndWait();
+                        MyAlerts.formatDateAlert();
                     }
                 }
                 catch (NumberFormatException n) {
@@ -137,11 +140,7 @@ public class EditController {
                     task.setStart(sdf.parse(start.getText()));
                     dialogStage.close();
                 } catch (ParseException e) {
-                    Alert alert = new Alert(Alert.AlertType.WARNING);
-                    alert.setTitle("Incorrect Date");
-                    alert.setHeaderText("Date is incorrect");
-                    alert.setContentText("No valid date. Use the format dd.MM.yyyy HH:mm:ss!");
-                    alert.showAndWait();
+                    MyAlerts.formatDateAlert();
                 }
             }
         }

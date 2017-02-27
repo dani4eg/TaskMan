@@ -41,6 +41,7 @@ public class Task implements Cloneable, Serializable {
         this.end = date;
     }
 
+
     public Task(String title, Date time) throws IllegalArgumentException {
         this.title = title;
         this.start = time;
@@ -85,7 +86,7 @@ public class Task implements Cloneable, Serializable {
         this.end = end;
         this.interval = interval*1000;
         logger.info("Task \"" + title + "\" created. Start date: " +
-                sdate.format(start) + " End date: " +
+                sdate.format(start) + " End d9ate: " +
                 sdate.format(end) + ". Active: " + this.active);
     }
 
@@ -241,6 +242,7 @@ public class Task implements Cloneable, Serializable {
     public void setEnd(Date end) {
         this.end = end;
     }
+
     public void setInterval(int interval) {
         this.interval = interval;
     }

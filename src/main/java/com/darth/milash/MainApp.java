@@ -94,7 +94,7 @@ public class MainApp extends Application {
     public Stage getPrimaryStage() {
         return primaryStage;
     }
-    public ObservableList<Task> getPersonData() {
+    public ObservableList<Task> getTaskData() {
         return taskData;
     }
 
@@ -108,7 +108,7 @@ public class MainApp extends Application {
 
 
 
-    public boolean showPersonEditDialog(Task task) {
+    public boolean showTaskEditDialog(Task task) {
         try {
             // Загружаем fxml-файл и создаём новую сцену
             // для всплывающего диалогового окна.
@@ -118,7 +118,7 @@ public class MainApp extends Application {
 
             // Создаём диалоговое окно Stage.
             Stage dialogStage = new Stage();
-            dialogStage.setTitle("Edit Person");
+            dialogStage.setTitle("Edit Task");
             dialogStage.initModality(Modality.WINDOW_MODAL);
             dialogStage.initOwner(primaryStage);
             Scene scene = new Scene(page);
@@ -127,7 +127,7 @@ public class MainApp extends Application {
             // Передаём адресата в контроллер.
             EditController controller = loader.getController();
             controller.setDialogStage(dialogStage);
-            controller.setPerson(task);
+            controller.setTask(task);
 
             // Отображаем диалоговое окно и ждём, пока пользователь его не закроет
             dialogStage.showAndWait();

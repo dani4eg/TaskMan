@@ -1,5 +1,7 @@
-"dfsd" from [2017-03-30 11:11:11.000] to [2018-03-30 11:11:11.000] every [1 hour 23 seconds] inactive;
-"2132" from [2017-02-24 11:11:11.000] to [2017-03-01 00:00:00.000] every [1 hour] inactive;
-"buum" from [2017-02-24 11:11:11.000] to [2017-03-01 00:00:00.000] every [11 days 13 hours 46 minutes 40 seconds] inactive;
-"cxvxzxxzczx" from [2017-02-24 11:11:11.000] to [2017-03-01 00:00:00.000] every [9 days 6 hours 13 minutes 20 seconds] inactive;
-"Task8" from [2017-09-05 23:11:11.000] to [2017-09-07 00:00:00.000] every [10 days] inactive.
+"RAZDVATRI" from [2017-02-24 11:11:11.000] to [2018-03-07 23:12:56.000] every [10 hours] inactive;
+"buum1" from [2017-02-24 11:11:11.000] to [2017-02-25 11:11:11.000] every [2 minutes 3 seconds] inactive;
+"cxvxzxxzczx" from [2017-02-24 11:11:11.000] to [2017-02-28 11:11:11.000] every [1 hour] inactive;
+"Task8" at [2017-09-05 23:11:11.000] inactive;
+"Task56666" at [2017-02-27 17:13:06.000];
+"OneTask" from [2017-02-27 17:13:34.000] to [2017-03-01 17:13:34.000] every [1 hour] inactive;
+"Cooooler" from [2017-02-27 17:19:23.000] to [2017-03-01 17:19:23.000] every [3 minutes 33 seconds].

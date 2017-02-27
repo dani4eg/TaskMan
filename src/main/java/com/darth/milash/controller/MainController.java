@@ -1,9 +1,6 @@
 package com.darth.milash.controller;
 
-import com.darth.milash.model.ArrayTaskList;
-import com.darth.milash.model.Task;
-import com.darth.milash.model.TaskIO;
-import com.darth.milash.model.TaskList;
+import com.darth.milash.model.*;
 import com.darth.milash.util.DateUtil;
 import javafx.beans.property.StringProperty;
 import javafx.fxml.FXML;
@@ -61,12 +58,12 @@ public class MainController {
     private void initialize() throws FileNotFoundException, ParseException {
         // Инициализация таблицы адресатов с двумя столбцами.
         titleColumn.setCellValueFactory(cellData -> cellData.getValue().getTitlePropetry());
-        showPersonDetails(null);
+        showTaskDetails(null);
 
         // Слушаем изменения выбора, и при изменении отображаем
         // дополнительную информацию об адресате.
         taskTable.getSelectionModel().selectedItemProperty().addListener(
-                (observable, oldValue, newValue) -> showPersonDetails(newValue));
+                (observable, oldValue, newValue) -> showTaskDetails(newValue));
         TaskIO.read(list, new FileReader(fileName));
     }
 //
@@ -79,10 +76,10 @@ public class MainController {
         this.mainApp = mainApp;
 
         // Добавление в таблицу данных из наблюдаемого списка
-        taskTable.setItems(mainApp.getPersonData());
+        taskTable.setItems(mainApp.getTaskData());
     }
 
-    public void showPersonDetails(Task task) {
+    public void showTaskDetails(Task task) {
         SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
         if (task==null) {
             title.setText("");
@@ -104,7 +101,7 @@ public class MainController {
             title.setText(task.getTitle());
             start.setText(sdf.format(task.getStartTime()));
             end.setText(sdf.format(task.getEndTime()));
-            interval.setText(task.reInterval(task.getInterval()*1000));
+            interval.setText(task.reInterval(task.getInterval()));
             if (task.isActive()) active.setText("YES");
             else active.setText("NO");
         }
@@ -137,20 +134,40 @@ public class MainController {
 //        }
 //    }
 
+    /**
+     * Вызывается, когда пользователь кликает по кнопке New...
+     * Открывает диалоговое окно с дополнительной информацией нового адресата.
+     */
     @FXML
-    private void handleEditPerson() {
+    private void handleNewTask() {
+        Task tempTask = new Task("", new Date());
+        boolean okClicked = mainApp.showTaskEditDialog(tempTask);
+        if (okClicked) {
+            mainApp.getTaskData().add(tempTask);
+            tempTask.setTitle(tempTask.getTitle());
+            tempTask.setStart(tempTask.getStartTime());
+            tempTask.setEnd(tempTask.getEndTime());
+            tempTask.setInterval(tempTask.getInterval());
+            tempTask.setActive(tempTask.isActive());
+            list.add(tempTask);
+            TaskIO.writeText(list, new File(fileName));
+        }
+    }
+
+    @FXML
+    private void handleEditTask() {
         Task selectedPerson = taskTable.getSelectionModel().getSelectedItem();
         int selectedIndex = taskTable.getSelectionModel().getSelectedIndex();
         if (selectedPerson != null) {
 
-            boolean okClicked = mainApp.showPersonEditDialog(selectedPerson);
+            boolean okClicked = mainApp.showTaskEditDialog(selectedPerson);
             if (okClicked) {
-                showPersonDetails(selectedPerson);
+                showTaskDetails(selectedPerson);
             }
             list.getTask(selectedIndex).setTitle(selectedPerson.getTitle());
             list.getTask(selectedIndex).setStart(selectedPerson.getStartTime());
             list.getTask(selectedIndex).setEnd(selectedPerson.getEndTime());
-            list.getTask(selectedIndex).setInterval(selectedPerson.getInterval()*1000);
+            list.getTask(selectedIndex).setInterval(selectedPerson.getInterval());
             list.getTask(selectedIndex).setActive(selectedPerson.isActive());
             taskTable.getItems().set(selectedIndex, selectedPerson);
             TaskIO.writeText(list, new File(fileName));
@@ -159,13 +176,7 @@ public class MainController {
 
         } else {
             // Ничего не выбрано.
-            Alert alert = new Alert(Alert.AlertType.WARNING);
-            alert.initOwner(mainApp.getPrimaryStage());
-            alert.setTitle("No Selection");
-            alert.setHeaderText("No Person Selected");
-            alert.setContentText("Please select a person in the table.");
-
-            alert.showAndWait();
+            MyAlerts.chooseAlert(mainApp);
         }
     }
 }
