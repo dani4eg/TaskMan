@@ -1,8 +1,6 @@
 package com.darth.milash.controller;
 
 import com.darth.milash.model.*;
-import com.darth.milash.util.DateUtil;
-import javafx.beans.property.StringProperty;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;

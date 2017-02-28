@@ -71,13 +71,6 @@ public class EditController {
         this.task = task;
 
         SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
-//            title.setText(task.getTitle());
-//            start.setText(task.ge);
-//            streetField.setText(person.getStreet());
-//            postalCodeField.setText(Integer.toString(person.getPostalCode()));
-//            cityField.setText(person.getCity());
-//            birthdayField.setText(DateUtil.format(person.getBirthday()));
-//            birthdayField.setPromptText("dd.mm.yyyy");
         if (task.getInterval() == 0) {
             title.setText(task.getTitle());
             start.setText(sdf.format(task.getTime()));
@@ -180,30 +173,9 @@ public class EditController {
         if (title.getText() == null || title.getText().length() == 0) {
             errorMessage += "No valid task name!\n";
         }
-
-//        if (birthdayField.getText() == null || birthdayField.getText().length() == 0) {
-//            errorMessage += "No valid birthday!\n";
-//        } else {
-//            if (!DateUtil.validDate(birthdayField.getText())) {
-//                errorMessage += "No valid birthday. Use the format dd.mm.yyyy!\n";
-//            }
-//        }
         if (start.getText() == null || start.getText().length() == 0) {
             errorMessage += "Start date is empty\n";
         }
-
-//        if (end.getText() != null) {
-//            if (interval.getText() == null || interval.getText().length() == 0) {
-//                errorMessage += "No valid interval\n";
-//            } else {
-//                try {
-//                    Integer.parseInt(interval.getText());
-//                } catch (NumberFormatException e) {
-//                    errorMessage += "No valid interval (must be an integer)!\n";
-//                }
-//            }
-//        }
-
 
         if (errorMessage.length() == 0) {
             return true;
