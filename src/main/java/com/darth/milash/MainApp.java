@@ -1,6 +1,7 @@
 package com.darth.milash;
 
 
+import com.darth.milash.controller.CalendarController;
 import com.darth.milash.controller.EditController;
 import com.darth.milash.controller.MainController;
 import com.darth.milash.model.ArrayTaskList;
@@ -17,24 +18,21 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.ParseException;
-import java.util.Date;
+
 
 public class MainApp extends Application {
 
     private static TaskList list = new ArrayTaskList();
-    private static String fileName = "files/tFile.txt";
-    private static String formatDate = "dd.MM.yyyy HH:mm:ss";
     private Stage primaryStage;
     private BorderPane rootLayout;
-    private ObservableList<Task> taskData = FXCollections.observableArrayList();
+    private final ObservableList<Task> taskData = FXCollections.observableArrayList();
+
 
     public static void main(String[] args) {
-
         launch(args);
     }
 
@@ -102,6 +100,7 @@ public class MainApp extends Application {
     }
 
     public MainApp() throws FileNotFoundException, ParseException {
+        String fileName = "files/tFile.txt";
         TaskIO.read(list, new FileReader(fileName));
         for (int i = 0; i < list.size(); i++) {
             taskData.add(list.getTask(i));
@@ -131,6 +130,37 @@ public class MainApp extends Application {
             EditController controller = loader.getController();
             controller.setDialogStage(dialogStage);
             controller.setTask(task);
+
+            // Отображаем диалоговое окно и ждём, пока пользователь его не закроет
+            dialogStage.showAndWait();
+
+            return controller.isOkClicked();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    public boolean showCalendarWindow() {
+        try {
+            // Загружаем fxml-файл и создаём новую сцену
+            // для всплывающего диалогового окна.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("/fxml/CalendarWindow.fxml"));
+            AnchorPane page = (AnchorPane) loader.load();
+
+            // Создаём диалоговое окно Stage.
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("Calendar");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(primaryStage);
+            Scene scene = new Scene(page);
+            dialogStage.setScene(scene);
+
+            // Передаём адресата в контроллер.
+            CalendarController controller = loader.getController();
+            controller.setDialogStage(dialogStage);
+            controller.calendar();
 
             // Отображаем диалоговое окно и ждём, пока пользователь его не закроет
             dialogStage.showAndWait();

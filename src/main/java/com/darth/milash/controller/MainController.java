@@ -40,14 +40,7 @@ public class MainController {
 
     // Ссылка на главное приложение.
     private MainApp mainApp;
-//
-//    /**
-//     * Конструктор.
-//     * Конструктор вызывается раньше метода initialize().
-//     */
-//    public MainController() {
-//    }
-//
+
     /**
      * Инициализация класса-контроллера. Этот метод вызывается автоматически
      * после того, как fxml-файл будет загружен.
@@ -114,28 +107,10 @@ public class MainController {
             TaskIO.writeText(list, new File(fileName));
         }
         else {
-            Alert alert = new Alert(Alert.AlertType.WARNING);
-            alert.initOwner(mainApp.getPrimaryStage());
-            alert.setTitle("No Selection");
-            alert.setHeaderText("No Task Selected");
-            alert.setContentText("Please select a task in the table.");
-            alert.showAndWait();
+            MyAlerts.chooseAlert(mainApp);
         }
     }
 
-//    @FXML
-//    private void handleNewPerson() {
-//        Task tempTask = new Task();
-//        boolean okClicked = mainApp.showPersonEditDialog(tempTask);
-//        if (okClicked) {
-//            mainApp.getPersonData().add(tempTask);
-//        }
-//    }
-
-    /**
-     * Вызывается, когда пользователь кликает по кнопке New...
-     * Открывает диалоговое окно с дополнительной информацией нового адресата.
-     */
     @FXML
     private void handleNewTask() {
         Task tempTask = new Task("", new Date());
@@ -169,12 +144,14 @@ public class MainController {
             list.getTask(selectedIndex).setActive(selectedPerson.isActive());
             taskTable.getItems().set(selectedIndex, selectedPerson);
             TaskIO.writeText(list, new File(fileName));
-
-
-
         } else {
-            // Ничего не выбрано.
             MyAlerts.chooseAlert(mainApp);
         }
+    }
+
+    @FXML
+    private void handleCalendar() {
+        boolean okClicked = mainApp.showCalendarWindow();
+
     }
 }

@@ -1,5 +1,7 @@
 package com.darth.milash.model;
 
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +12,7 @@ import java.util.*;
  * Created by darthMilash on 30.01.2017.
  */
 public class Tasks {
+
 
     static Logger logger = LoggerFactory.getLogger(Tasks.class);
     static SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy HH.mm.ss", Locale.ENGLISH);
@@ -80,5 +83,6 @@ public class Tasks {
         }
         return map;
     }
+
 }
 

@@ -34,7 +34,7 @@ public class MyAlerts {
         alert.setTitle("No Selection");
         alert.setHeaderText("No Task Selected");
         alert.setContentText("Please select a task in the table.");
-
         alert.showAndWait();
     }
+
 }

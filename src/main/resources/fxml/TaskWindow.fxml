@@ -83,6 +83,7 @@
                                 <Button mnemonicParsing="false" onAction="#deleteTask" text="Delete" />
                             </children>
                         </HBox>
+                  <Button layoutX="16.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleCalendar" text="Calendar" />
                     </children>
                 </AnchorPane>
             </items>

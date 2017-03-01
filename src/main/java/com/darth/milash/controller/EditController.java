@@ -1,35 +1,20 @@
 package com.darth.milash.controller;
 
-import com.darth.milash.MainApp;
 import com.darth.milash.model.*;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-
-/**
- * Created by darthMilash on 24.02.2017.
- */
 public class EditController {
 
     private static String formatDate = "dd.MM.yyyy HH:mm:ss";
-    private static String fileName = "files/tFile.txt";
-    private static TaskList list = new ArrayTaskList();
-    /**
-     * Окно для изменения информации об адресате.
-     *
-     * @author Marco Jakob
-     */
+
     @FXML
     private TextField title;
     @FXML
@@ -45,28 +30,14 @@ public class EditController {
     private Task task;
     private boolean okClicked = false;
 
-    /**
-     * Инициализирует класс-контроллер. Этот метод вызывается автоматически
-     * после того, как fxml-файл будет загружен.
-     */
     @FXML
-    private void initialize() {
+    void initialize() {
     }
 
-    /**
-     * Устанавливает сцену для этого окна.
-     *
-     * @param dialogStage
-     */
     public void setDialogStage(Stage dialogStage) {
         this.dialogStage = dialogStage;
     }
 
-    /**
-     * Задаёт адресата, информацию о котором будем менять.
-     *
-     * @param task
-     */
     public void setTask(Task task) {
         this.task = task;
 
@@ -89,29 +60,16 @@ public class EditController {
         }
     }
 
-
-
-
-
-    /**
-     * Returns true, если пользователь кликнул OK, в другом случае false.
-     *
-     * @return
-     */
     public boolean isOkClicked() {
         return okClicked;
     }
 
-    /**
-     * Вызывается, когда пользователь кликнул по кнопке OK.
-     */
     @FXML
     private void handleOk() {
         SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
         Date startDate;
         Date endDate;
         if (isInputValid()) {
-
             task.setTitle(title.getText());
             try {
                 task.setInterval(Integer.parseInt(interval.getText())*1000);
@@ -137,36 +95,18 @@ public class EditController {
                 }
             }
         }
-
-
         if (active.getText().equals("YES") || active.getText().equals("yes") || active.getText().equals("y") || active.getText().equals("Y")) task.setActive(true);
         else task.setActive(false);
-
-
-
-//        for (int i = 0; i < list.size() ; i++) {
-//            if (list.getTask(i).equals(task)) {
-//                list.getTask(i).setTitle("HUY");
-//                                                 }
-//            TaskIO.writeText(list, new File(fileName));
-//        }
 
         okClicked = true;
     }
 
-    /**
-     * Вызывается, когда пользователь кликнул по кнопке Cancel.
-     */
     @FXML
     private void handleCancel() {
         dialogStage.close();
     }
 
-    /**
-     * Проверяет пользовательский ввод в текстовых полях.
-     *
-     * @return true, если пользовательский ввод корректен
-     */
+
     private boolean isInputValid() {
         String errorMessage = "";
 
@@ -176,17 +116,14 @@ public class EditController {
         if (start.getText() == null || start.getText().length() == 0) {
             errorMessage += "Start date is empty\n";
         }
-
         if (errorMessage.length() == 0) {
             return true;
         } else {
-            // Показываем сообщение об ошибке.
             Alert alert = new Alert(AlertType.ERROR);
             alert.initOwner(dialogStage);
             alert.setTitle("Invalid Fields");
             alert.setHeaderText("Please correct invalid fields");
             alert.setContentText(errorMessage);
-
             alert.showAndWait();
 
             return false;
