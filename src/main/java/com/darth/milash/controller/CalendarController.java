@@ -4,6 +4,7 @@ import com.darth.milash.MainApp;
 import com.darth.milash.model.*;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.MapChangeListener;
 import javafx.collections.ObservableList;
@@ -13,6 +14,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.stage.Stage;
+import javafx.util.Callback;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -30,20 +32,22 @@ public class CalendarController {
     private static String formatDate = "dd.MM.yyyy HH:mm:ss";
     private static String fileName = "files/tFile.txt";
     private static TaskList list = new ArrayTaskList();
-    private ObservableList<Date> tasksList = FXCollections.observableArrayList();
     private Stage dialogStage;
     private boolean okClicked = false;
 
 
-    @FXML
-    private TableView<Date> tasksDate;
 
     @FXML
-    private TableColumn<Date, String> dateColumn;
+    private TableView<Map.Entry<Date, Set<Task>>> calendar;
+
 
     @FXML
-    private Label title;
+    private TableColumn<Map.Entry<Date, Set<Task>>, String> dateColumn;
 
+
+
+    @FXML
+    private TableColumn<Map.Entry<Date, Set<Task>>, String> tasksColumn;
 
     /**
      * Инициализирует класс-контроллер. Этот метод вызывается автоматически
@@ -69,10 +73,32 @@ public class CalendarController {
     }
 
     public void calendar() throws IOException {
+
         SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
         long date;
         Date sdate = new Date();
         Date edate = new Date(sdate.getTime() + (66400000));
         Map<Date, Set<Task>> map = Tasks.calendar(list, sdate, edate);
+
+        dateColumn.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<Map.Entry<Date, Set<Task>>, String>, ObservableValue<String>>() {
+            @Override
+            public ObservableValue<String> call(TableColumn.CellDataFeatures<Map.Entry<Date, Set<Task>>, String> param) {
+                return new SimpleStringProperty(sdf.format(param.getValue().getKey()));
+            }
+        });
+
+        tasksColumn.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<Map.Entry<Date, Set<Task>>, String>, ObservableValue<String>>() {
+            @Override
+            public ObservableValue<String> call(TableColumn.CellDataFeatures<Map.Entry<Date, Set<Task>>, String> param) {
+                return new SimpleStringProperty(param.getValue().getValue().toString());
+            }
+        });
+
+       ObservableList<Map.Entry<Date, Set<Task>>> mapList = FXCollections.observableArrayList(map.entrySet());
+        System.out.println(mapList);
+        calendar = new TableView<>(mapList);
+        System.out.println(dateColumn.getColumns());
+
     }
+
 }

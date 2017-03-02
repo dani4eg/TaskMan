@@ -1846,3 +1846,832 @@
 2017-03-01 17:24:31 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
 2017-03-01 17:24:31 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
 2017-03-01 17:24:31 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 10:34:15 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 10:34:15 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 10:34:15 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 10:34:15 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 10:34:15 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 10:34:15 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 10:34:15 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 10:34:15 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 10:34:15 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 10:34:15 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 10:34:15 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 10:34:15 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 10:34:15 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 10:34:15 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 10:34:15 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 10:34:15 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 10:34:15 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 10:34:15 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 10:34:15 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 10:34:15 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 10:34:25 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 10:34:25 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 10:34:25 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 10:34:25 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 10:34:25 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 10:34:25 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 10:34:25 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 10:34:25 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 10:34:25 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 10:34:25 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 10:34:25 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 10:34:25 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 10:34:25 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 10:34:25 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 10:34:25 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 10:34:25 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 10:34:25 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 10:34:25 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 10:34:25 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 10:34:25 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 10:34:43 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 10:34:43 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 10:34:43 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 10:34:43 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 10:34:43 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 10:34:43 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 10:34:43 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 10:34:43 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 10:34:43 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 10:34:43 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 10:34:43 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 10:34:43 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 10:34:43 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 10:34:43 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 10:34:43 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 10:34:43 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 10:34:43 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 10:34:43 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 10:34:43 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 10:34:43 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 10:34:43 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 10:34:43 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 11:14:44 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 11:14:44 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 11:14:44 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 11:14:44 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 11:14:44 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 11:14:44 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 11:14:44 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 11:14:44 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 11:14:44 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 11:14:44 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 11:14:44 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 11:14:44 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 11:14:44 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 11:14:44 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 11:14:44 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 11:14:44 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 11:14:44 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 11:14:44 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 11:14:44 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 11:14:44 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 11:14:49 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 11:14:49 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 11:14:49 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 11:14:49 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 11:14:49 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 11:14:49 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 11:14:49 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 11:14:49 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 11:14:49 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 11:14:49 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 11:14:49 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 11:14:49 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 11:14:49 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 11:14:49 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 11:14:49 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 11:14:49 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 11:14:49 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 11:14:49 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 11:14:49 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 11:14:49 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 11:14:53 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 11:14:53 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 11:14:53 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 11:14:53 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 11:14:53 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 11:14:53 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 11:14:53 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 11:14:53 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 11:14:53 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 11:14:53 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 11:14:53 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 11:14:53 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 11:14:53 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 11:14:53 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 11:14:53 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 11:14:53 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 11:14:53 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 11:14:53 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 11:14:53 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 11:14:53 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 11:14:53 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 11:14:53 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 11:40:36 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 11:40:36 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 11:40:36 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 11:40:36 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 11:40:36 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 11:40:36 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 11:40:36 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 11:40:36 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 11:40:36 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 11:40:36 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 11:40:36 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 11:40:36 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 11:40:36 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 11:40:36 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 11:40:36 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 11:40:36 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 11:40:36 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 11:40:36 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 11:40:36 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 11:40:36 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 11:40:48 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 11:40:48 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 11:40:48 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 11:40:48 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 11:40:48 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 11:40:48 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 11:40:48 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 11:40:48 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 11:40:48 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 11:40:48 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 11:40:48 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 11:40:48 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 11:40:48 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 11:40:48 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 11:40:48 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 11:40:48 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 11:40:48 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 11:40:48 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 11:40:48 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 11:40:48 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 11:40:51 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 11:40:51 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 11:40:51 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 11:40:51 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 11:40:51 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 11:40:51 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 11:40:51 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 11:40:51 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 11:40:51 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 11:40:51 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 11:40:51 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 11:40:51 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 11:40:51 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 11:40:51 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 11:40:51 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 11:40:51 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 11:40:51 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 11:40:51 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 11:40:51 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 11:40:51 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 11:40:51 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 11:40:51 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 12:02:09 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:02:09 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:02:09 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:02:09 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:02:09 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:02:09 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:02:09 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:02:09 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:02:09 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:02:09 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:02:09 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:02:09 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:02:09 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:02:09 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:02:09 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:02:09 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:02:09 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:02:09 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:02:09 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:02:09 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:02:14 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:02:14 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:02:14 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:02:14 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:02:14 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:02:14 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:02:14 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:02:14 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:02:14 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:02:14 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:02:14 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:02:14 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:02:14 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:02:14 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:02:14 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:02:14 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:02:14 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:02:14 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:02:14 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:02:14 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:02:15 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:02:15 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:02:15 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:02:15 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:02:15 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:02:15 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:02:15 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:02:15 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:02:15 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:02:15 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:02:15 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:02:15 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:02:15 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:02:15 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:02:15 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:02:15 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:02:15 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:02:15 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:02:15 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:02:15 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:02:15 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:02:15 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 12:07:19 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:07:19 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:07:19 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:07:19 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:07:19 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:07:19 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:07:19 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:07:19 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:07:19 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:07:19 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:07:19 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:07:19 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:07:19 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:07:19 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:07:19 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:07:19 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:07:19 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:07:19 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:07:19 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:07:19 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:07:21 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:07:21 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:07:21 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:07:21 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:07:21 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:07:21 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:07:21 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:07:21 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:07:21 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:07:21 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:07:21 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:07:21 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:07:21 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:07:21 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:07:21 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:07:21 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:07:21 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:07:21 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:07:21 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:07:21 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:07:22 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:07:22 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:07:22 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:07:22 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:07:22 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:07:22 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:07:22 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:07:22 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:07:22 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:07:22 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:07:22 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:07:22 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:07:22 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:07:22 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:07:22 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:07:22 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:07:22 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:07:22 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:07:22 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:07:22 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:07:22 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:07:22 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 12:14:39 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:14:39 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:14:39 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:14:39 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:14:39 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:14:39 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:14:39 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:14:39 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:14:39 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:14:39 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:14:39 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:14:39 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:14:39 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:14:39 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:14:39 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:14:39 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:14:39 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:14:39 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:14:39 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:14:39 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:14:40 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:14:40 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:14:40 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:14:40 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:14:40 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:14:40 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:14:40 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:14:40 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:14:40 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:14:40 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:14:40 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:14:40 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:14:40 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:14:40 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:14:40 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:14:40 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:14:40 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:14:40 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:14:40 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:14:40 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:14:41 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:14:41 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:14:41 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:14:41 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:14:41 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:14:41 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:14:41 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:14:41 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:14:41 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:14:41 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:14:41 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:14:41 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:14:41 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:14:41 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:14:41 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:14:41 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:14:41 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:14:41 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:14:41 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:14:41 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:14:41 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:14:41 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 12:15:43 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:15:43 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:15:43 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:15:43 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:15:43 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:15:43 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:15:43 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:15:43 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:15:43 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:15:43 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:15:43 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:15:43 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:15:43 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:15:43 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:15:43 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:15:43 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:15:43 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:15:43 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:15:43 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:15:43 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:15:44 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:15:44 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:15:44 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:15:44 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:15:44 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:15:44 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:15:44 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:15:44 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:15:44 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:15:44 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:15:44 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:15:44 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:15:44 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:15:44 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:15:44 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:15:44 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:15:44 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:15:44 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:15:44 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:15:44 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:15:45 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:15:45 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:15:45 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:15:45 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:15:45 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:15:45 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:15:45 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:15:45 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:15:45 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:15:45 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:15:45 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:15:45 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:15:45 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:15:45 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:15:45 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:15:45 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:15:45 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:15:45 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:15:45 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:15:45 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:15:45 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:15:45 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 12:15:51 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:15:51 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:15:51 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:15:51 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:15:51 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:15:51 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:15:51 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:15:51 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:15:51 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:15:51 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:15:51 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:15:51 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:15:51 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:15:51 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:15:51 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:15:51 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:15:51 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:15:51 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:15:51 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:15:51 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:15:51 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:15:51 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:15:51 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 12:17:42 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:17:42 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:17:42 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:17:42 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:17:42 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:17:42 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:17:42 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:17:42 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:17:42 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:17:42 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:17:42 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:17:42 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:17:42 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:17:42 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:17:42 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:17:42 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:17:42 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:17:42 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:17:42 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:17:42 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:17:43 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:17:43 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:17:43 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:17:43 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:17:43 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:17:43 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:17:43 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:17:43 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:17:43 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:17:43 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:17:43 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:17:43 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:17:43 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:17:43 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:17:43 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:17:43 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:17:43 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:17:43 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:17:43 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:17:43 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:17:44 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:17:44 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:17:44 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:17:44 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:17:44 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:17:44 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:17:44 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:17:44 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:17:44 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:17:44 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:17:44 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:17:44 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:17:44 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:17:44 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:17:44 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:17:44 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:17:44 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:17:44 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:17:44 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:17:44 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:17:44 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:17:44 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 12:18:45 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:18:45 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:18:45 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:18:45 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:18:45 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:18:45 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:18:45 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:18:45 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:18:45 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:18:45 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:18:45 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:18:45 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:18:45 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:18:45 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:18:45 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:18:45 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:18:45 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:18:45 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:18:45 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:18:45 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:18:46 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:18:46 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:18:46 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:18:46 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:18:46 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:18:46 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:18:46 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:18:46 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:18:46 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:18:46 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:18:46 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:18:46 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:18:46 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:18:46 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:18:46 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:18:46 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:18:46 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:18:46 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:18:46 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:18:46 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:18:47 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:18:47 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:18:47 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:18:47 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:18:47 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:18:47 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:18:47 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:18:47 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:18:47 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:18:47 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:18:47 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:18:47 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:18:47 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:18:47 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:18:47 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:18:47 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:18:47 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:18:47 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:18:47 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:18:47 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:18:47 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:18:47 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 12:20:53 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:20:53 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:20:53 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:20:53 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:20:53 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:20:53 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:20:53 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:20:53 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:20:53 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:20:53 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:20:53 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:20:53 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:20:53 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:20:53 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:20:53 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:20:53 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:20:53 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:20:53 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:20:53 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:20:53 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:20:54 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:20:54 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:20:54 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:20:54 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:20:54 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:20:54 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:20:54 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:20:54 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:20:54 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:20:54 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:20:54 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:20:54 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:20:54 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:20:54 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:20:54 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:20:54 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:20:54 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:20:54 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:20:54 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:20:54 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:20:56 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:20:56 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:20:56 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:20:56 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:20:56 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:20:56 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:20:56 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:20:56 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:20:56 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:20:56 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:20:56 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:20:56 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:20:56 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:20:56 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:20:56 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:20:56 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:20:56 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:20:56 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:20:56 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:20:56 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:20:56 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:20:56 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 12:21:39 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:21:39 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:21:39 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:21:39 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:21:39 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:21:39 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:21:39 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:21:39 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:21:39 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:21:39 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:21:39 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:21:39 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:21:39 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:21:39 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:21:39 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:21:39 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:21:39 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:21:39 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:21:39 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:21:39 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:21:40 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:21:40 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:21:40 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:21:40 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:21:40 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:21:40 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:21:40 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:21:40 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:21:40 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:21:40 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:21:40 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:21:40 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:21:40 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:21:40 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:21:40 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:21:40 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:21:40 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:21:40 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:21:40 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:21:40 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:21:41 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:21:41 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:21:41 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:21:41 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:21:41 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:21:41 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:21:41 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:21:41 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:21:41 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:21:41 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:21:41 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:21:41 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:21:41 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:21:41 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:21:41 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:21:41 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:21:41 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:21:41 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:21:41 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:21:41 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:21:41 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:21:41 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 12:25:36 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:25:36 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:25:36 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:25:36 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:25:36 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:25:36 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:25:36 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:25:36 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:25:36 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:25:36 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:25:36 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:25:36 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:25:36 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:25:36 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:25:36 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:25:36 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:25:36 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:25:36 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:25:36 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:25:36 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:25:37 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:25:37 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:25:37 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:25:37 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:25:37 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:25:37 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:25:37 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:25:37 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:25:37 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:25:37 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:25:37 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:25:37 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:25:37 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:25:37 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:25:37 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:25:37 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:25:37 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:25:37 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:25:37 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:25:37 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:25:38 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:25:38 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:25:38 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:25:38 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:25:38 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:25:38 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:25:38 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:25:38 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:25:38 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:25:38 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:25:38 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:25:38 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:25:38 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:25:38 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:25:38 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:25:38 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:25:38 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:25:38 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:25:38 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:25:38 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:25:38 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:25:38 INFO  Tasks:38 - Add in calendar list succes
+2017-03-02 12:25:59 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:25:59 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:25:59 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:25:59 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:25:59 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:25:59 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:25:59 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:25:59 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:25:59 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:25:59 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:25:59 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:25:59 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:25:59 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:25:59 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:25:59 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:25:59 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:25:59 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:25:59 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:25:59 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:25:59 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:26:00 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:26:00 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:26:00 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:26:00 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:26:00 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:26:00 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:26:00 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:26:00 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:26:00 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:26:00 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:26:00 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:26:00 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:26:00 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:26:00 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:26:00 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:26:00 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:26:00 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:26:00 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:26:00 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:26:00 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:26:01 INFO  Task:88 - Task "RAZDVATRI" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2018-03-07 23:12:56.000]. Active: false
+2017-03-02 12:26:01 INFO  Task:129 - "RAZDVATRI" changed the status from: false to true
+2017-03-02 12:26:01 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:26:01 INFO  Task:88 - Task "buum1" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-25 11:11:11.000]. Active: false
+2017-03-02 12:26:01 INFO  Task:129 - "buum1" changed the status from: false to true
+2017-03-02 12:26:01 INFO  ArrayTaskList:54 - The "buum1" added to ArrayList
+2017-03-02 12:26:01 INFO  Task:88 - Task "cxvxzxxzczx" created. Start date: [2017-02-24 11:11:11.000] End d9ate: [2017-02-28 11:11:11.000]. Active: false
+2017-03-02 12:26:01 INFO  Task:129 - "cxvxzxxzczx" changed the status from: false to true
+2017-03-02 12:26:01 INFO  ArrayTaskList:54 - The "cxvxzxxzczx" added to ArrayList
+2017-03-02 12:26:01 INFO  Task:49 - Task "Task8" created. Start date: [2017-09-05 23:11:11.000]. Active: false
+2017-03-02 12:26:01 INFO  Task:129 - "Task8" changed the status from: false to true
+2017-03-02 12:26:01 INFO  ArrayTaskList:54 - The "Task8" added to ArrayList
+2017-03-02 12:26:01 INFO  Task:49 - Task "Task56666" created. Start date: [2017-02-27 17:13:06.000]. Active: false
+2017-03-02 12:26:01 INFO  ArrayTaskList:54 - The "Task56666" added to ArrayList
+2017-03-02 12:26:01 INFO  Task:88 - Task "OneTask" created. Start date: [2017-02-27 17:13:34.000] End d9ate: [2017-03-01 17:13:34.000]. Active: false
+2017-03-02 12:26:01 INFO  Task:129 - "OneTask" changed the status from: false to true
+2017-03-02 12:26:01 INFO  ArrayTaskList:54 - The "OneTask" added to ArrayList
+2017-03-02 12:26:01 INFO  Task:88 - Task "Cooooler" created. Start date: [2017-02-27 17:19:23.000] End d9ate: [2017-03-01 17:19:23.000]. Active: false
+2017-03-02 12:26:01 INFO  ArrayTaskList:54 - The "Cooooler" added to ArrayList
+2017-03-02 12:26:01 INFO  TaskIO:119 - Text reading task SUCCESSFUL
+2017-03-02 12:26:01 INFO  ArrayTaskList:54 - The "RAZDVATRI" added to ArrayList
+2017-03-02 12:26:01 INFO  Tasks:38 - Add in calendar list succes
