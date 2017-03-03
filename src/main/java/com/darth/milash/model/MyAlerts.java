@@ -3,12 +3,7 @@ package com.darth.milash.model;
 
 import com.darth.milash.MainApp;
 import javafx.scene.control.Alert;
-import javafx.scene.control.Alert.AlertType;
-import javafx.scene.control.TextField;
 
-/**
- * Created by darthMilash on 27.02.2017.
- */
 public class MyAlerts {
 
     public static void formatDateAlert(){

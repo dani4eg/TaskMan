@@ -84,6 +84,7 @@
                             </children>
                         </HBox>
                   <Button layoutX="16.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleCalendar" text="Calendar" />
+                  <Button layoutX="87.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleCloneTask" text="Clone" />
                     </children>
                 </AnchorPane>
             </items>

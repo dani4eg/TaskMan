@@ -1,8 +1,8 @@
 package com.darth.milash.controller;
 
 import com.darth.milash.model.*;
+import javafx.beans.property.SimpleStringProperty;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import com.darth.milash.MainApp;
 import javafx.scene.control.TableColumn;
@@ -19,14 +19,13 @@ import java.util.Locale;
 public class MainController {
     private static String formatDate = "dd.MM.yyyy HH:mm:ss";
     private static String fileName = "files/tFile.txt";
-    private static TaskList list = new ArrayTaskList();
+    private static TaskList list;
 
     @FXML
     private TableView<Task> taskTable;
     @FXML
     private TableColumn<Task, String> titleColumn;
-//
-//
+
     @FXML
     private Label title;
     @FXML
@@ -38,35 +37,22 @@ public class MainController {
     @FXML
     private Label active;
 
-    // Ссылка на главное приложение.
     private MainApp mainApp;
 
-    /**
-     * Инициализация класса-контроллера. Этот метод вызывается автоматически
-     * после того, как fxml-файл будет загружен.
-     */
     @FXML
-    private void initialize() throws FileNotFoundException, ParseException {
-        // Инициализация таблицы адресатов с двумя столбцами.
-        titleColumn.setCellValueFactory(cellData -> cellData.getValue().getTitlePropetry());
+    public void initialize() throws FileNotFoundException, ParseException {
+        titleColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getTitle()));
         showTaskDetails(null);
 
-        // Слушаем изменения выбора, и при изменении отображаем
-        // дополнительную информацию об адресате.
         taskTable.getSelectionModel().selectedItemProperty().addListener(
                 (observable, oldValue, newValue) -> showTaskDetails(newValue));
+        list = new ArrayTaskList();
         TaskIO.read(list, new FileReader(fileName));
     }
-//
-    /**
-     * Вызывается главным приложением, которое даёт на себя ссылку.
-     *
-     * @param mainApp
-     */
+
     public void setMainApp(MainApp mainApp) {
         this.mainApp = mainApp;
 
-        // Добавление в таблицу данных из наблюдаемого списка
         taskTable.setItems(mainApp.getTaskData());
     }
 
@@ -99,7 +85,7 @@ public class MainController {
     }
 
     @FXML
-    private void deleteTask() throws FileNotFoundException, ParseException {
+    public void deleteTask() throws FileNotFoundException, ParseException {
         int selectedIndex = taskTable.getSelectionModel().getSelectedIndex();
         if (selectedIndex >= 0) {
             taskTable.getItems().remove(selectedIndex);
@@ -112,7 +98,7 @@ public class MainController {
     }
 
     @FXML
-    private void handleNewTask() {
+    public void handleNewTask() {
         Task tempTask = new Task("", new Date());
         boolean okClicked = mainApp.showTaskEditDialog(tempTask);
         if (okClicked) {
@@ -128,11 +114,12 @@ public class MainController {
     }
 
     @FXML
-    private void handleEditTask() {
+    public void handleEditTask() {
         Task selectedPerson = taskTable.getSelectionModel().getSelectedItem();
         int selectedIndex = taskTable.getSelectionModel().getSelectedIndex();
-        if (selectedPerson != null) {
-
+        if (selectedPerson == null) {
+            MyAlerts.chooseAlert(mainApp);
+        } else {
             boolean okClicked = mainApp.showTaskEditDialog(selectedPerson);
             if (okClicked) {
                 showTaskDetails(selectedPerson);
@@ -144,14 +131,29 @@ public class MainController {
             list.getTask(selectedIndex).setActive(selectedPerson.isActive());
             taskTable.getItems().set(selectedIndex, selectedPerson);
             TaskIO.writeText(list, new File(fileName));
-        } else {
-            MyAlerts.chooseAlert(mainApp);
         }
     }
 
     @FXML
-    private void handleCalendar() {
-        boolean okClicked = mainApp.showCalendarWindow();
-
+    public void handleCloneTask() {
+        Task selectedPerson = taskTable.getSelectionModel().getSelectedItem();
+        if (selectedPerson == null) {
+            MyAlerts.chooseAlert(mainApp);
+        } else {
+            Task tempTask = new Task("", new Date());
+            mainApp.getTaskData().add(tempTask);
+            tempTask.setTitle(selectedPerson.getTitle()+"_copy");
+            tempTask.setStart(selectedPerson.getStartTime());
+            tempTask.setEnd(selectedPerson.getEndTime());
+            tempTask.setInterval(selectedPerson.getInterval());
+            tempTask.setActive(selectedPerson.isActive());
+            list.add(tempTask);
+            TaskIO.writeText(list, new File(fileName));
+        }
     }
+
+    @FXML
+    public void handleCalendar() {
+        mainApp.showCalendarWindow();
+            }
 }

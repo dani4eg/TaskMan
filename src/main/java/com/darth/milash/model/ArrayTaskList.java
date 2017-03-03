@@ -182,6 +182,18 @@ public class ArrayTaskList extends TaskList implements Cloneable {
         return text;
     }
 
+
+    public String toString2() {
+        String text = "";
+        for (int i = 0; i < size; i++) {
+            text += "\"" + getTask(i).getTitle() + "\"";
+            if (i==size-1) text+=".";
+            else text+=";";
+            text += "\n";
+        }
+        return text;
+    }
+
     public ArrayTaskList clone() {
         ArrayTaskList arrayTaskList = null;
         try {

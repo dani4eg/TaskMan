@@ -30,9 +30,6 @@ public class EditController {
     private Task task;
     private boolean okClicked = false;
 
-    @FXML
-    void initialize() {
-    }
 
     public void setDialogStage(Stage dialogStage) {
         this.dialogStage = dialogStage;
@@ -65,17 +62,15 @@ public class EditController {
     }
 
     @FXML
-    private void handleOk() {
+    public void handleOk() {
         SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
-        Date startDate;
-        Date endDate;
         if (isInputValid()) {
             task.setTitle(title.getText());
             try {
                 task.setInterval(Integer.parseInt(interval.getText())*1000);
                     try {
-                        startDate=sdf.parse(start.getText());
-                        endDate = sdf.parse(end.getText());
+                        Date startDate=sdf.parse(start.getText());
+                        Date endDate = sdf.parse(end.getText());
                         if (startDate.before(endDate)) {
                             task.setStart(startDate);
                             task.setEnd(endDate);
@@ -94,15 +89,15 @@ public class EditController {
                     MyAlerts.formatDateAlert();
                 }
             }
+            if (active.getText().equals("YES") || active.getText().equals("yes") || active.getText().equals("y") || active.getText().equals("Y")) task.setActive(true);
+            else task.setActive(false);
+            okClicked = true;
         }
-        if (active.getText().equals("YES") || active.getText().equals("yes") || active.getText().equals("y") || active.getText().equals("Y")) task.setActive(true);
-        else task.setActive(false);
-
-        okClicked = true;
+        else okClicked = false;
     }
 
     @FXML
-    private void handleCancel() {
+    public void handleCancel() {
         dialogStage.close();
     }
 

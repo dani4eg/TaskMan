@@ -17,15 +17,15 @@ import java.util.Set;
  */
 public class MyThread extends Thread{
 
-    private Logger logger = LoggerFactory.getLogger(Tasks.class);
-    private String formatDate = "dd.MM.yyyy HH.mm.ss";
-    SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
-    private TaskList list = new ArrayTaskList();
-    private String fileName = "files/tFile.txt";
 
     @Override
     public void run() {
         {
+            Logger logger = LoggerFactory.getLogger(Tasks.class);
+            String formatDate = "dd.MM.yyyy HH.mm.ss";
+            SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
+            TaskList list = new ArrayTaskList();
+            String fileName = "files/tFile.txt";
             try {
                 TaskIO.read(list, new FileReader(fileName));
             } catch (ParseException e) {

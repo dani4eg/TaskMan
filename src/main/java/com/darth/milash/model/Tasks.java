@@ -1,11 +1,7 @@
 package com.darth.milash.model;
 
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
@@ -15,7 +11,6 @@ public class Tasks {
 
 
     static Logger logger = LoggerFactory.getLogger(Tasks.class);
-    static SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy HH.mm.ss", Locale.ENGLISH);
     /**
      * Метод возвращает список задач, которые будут выполнены в данном промежутке времени
      * Создаем новый лист
@@ -36,6 +31,7 @@ public class Tasks {
             }
         }
         logger.info("Add in calendar list succes");
+//        System.out.println(list);
         return list;
     }
 
@@ -81,6 +77,8 @@ public class Tasks {
 
 //            System.out.println(map);
         }
+
+
         return map;
     }
 
