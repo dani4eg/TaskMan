@@ -2,14 +2,9 @@ package com.darth.milash.controller;
 
 import com.darth.milash.model.*;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
+import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import sun.util.resources.LocaleData;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
@@ -28,13 +23,15 @@ public class EditController {
     @FXML
     private TextField interval;
     @FXML
-    private TextField active;
-    @FXML
     private DatePicker startPicker;
     @FXML
     private DatePicker endPicker;
     @FXML
     private CheckBox checker;
+    @FXML
+    private RadioButton chYes;
+    @FXML
+    private RadioButton chNo;
 
     private Stage dialogStage;
     private Task task;
@@ -53,30 +50,30 @@ public class EditController {
         LocalDate localEnd = endDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
         String formatDate = "HH:mm:ss";
         SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
+        title.setText(task.getTitle());
+        startPicker.setValue(localStart);
+        start.setText(sdf.format(task.getTime()));
         if (task.getInterval() == 0) {
             checker.setSelected(false);
-            title.setText(task.getTitle());
-            startPicker.setValue(localStart);
-            start.setText(sdf.format(task.getTime()));
             endPicker.setVisible(false);
             end.setVisible(false);
             interval.setVisible(false);
-            if (task.isActive()) active.setText("YES");
-            else
-                active.setText("NO");
         } else {
             checker.setSelected(true);
             endPicker.setVisible(true);
             end.setVisible(true);
             interval.setVisible(true);
-            title.setText(task.getTitle());
-            startPicker.setValue(localStart);
-            start.setText(sdf.format(task.getStartTime()));
             endPicker.setValue(localEnd);
             end.setText(sdf.format(task.getEndTime()));
             interval.setText(Integer.toString(task.getInterval()/1000));
-            if (task.isActive()) active.setText("YES");
-            else active.setText("NO");
+        }
+        if (task.isActive()) {
+            chYes.setSelected(true);
+            chNo.setSelected(false);
+        }
+        else {
+            chYes.setSelected(false);
+            chNo.setSelected(true);
         }
     }
 
@@ -91,6 +88,15 @@ public class EditController {
             end.setVisible(false);
             interval.setVisible(false);
         }
+    }
+
+    public void isYes() {
+        if (chYes.isSelected()) chNo.setSelected(false);
+        else chNo.setSelected(true);
+    }
+    public void isNo() {
+        if (chNo.isSelected()) chYes.setSelected(false);
+        else chYes.setSelected(true);
     }
 
     public boolean isOkClicked() {
@@ -126,7 +132,7 @@ public class EditController {
                     MyAlerts.formatDateAlert();
                 }
             }
-            if (active.getText().equals("YES") || active.getText().equals("yes") || active.getText().equals("y") || active.getText().equals("Y")) task.setActive(true);
+            if (chYes.isSelected()) task.setActive(true);
             else task.setActive(false);
             okClicked = true;
         }
