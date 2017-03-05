@@ -4,6 +4,7 @@ import com.darth.milash.model.*;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
@@ -32,6 +33,8 @@ public class EditController {
     private DatePicker startPicker;
     @FXML
     private DatePicker endPicker;
+    @FXML
+    private CheckBox checker;
 
     private Stage dialogStage;
     private Task task;
@@ -45,21 +48,27 @@ public class EditController {
     public void setTask(Task task) {
         this.task = task;
         Date startDate = task.getTime();
-        Date endDate = task.getTime();
+        Date endDate = task.getEndTime();
         LocalDate localStart = startDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
         LocalDate localEnd = endDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
         String formatDate = "HH:mm:ss";
         SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
         if (task.getInterval() == 0) {
+            checker.setSelected(false);
             title.setText(task.getTitle());
             startPicker.setValue(localStart);
             start.setText(sdf.format(task.getTime()));
-            end.setText("");
-            interval.setText("");
+            endPicker.setVisible(false);
+            end.setVisible(false);
+            interval.setVisible(false);
             if (task.isActive()) active.setText("YES");
             else
                 active.setText("NO");
         } else {
+            checker.setSelected(true);
+            endPicker.setVisible(true);
+            end.setVisible(true);
+            interval.setVisible(true);
             title.setText(task.getTitle());
             startPicker.setValue(localStart);
             start.setText(sdf.format(task.getStartTime()));
@@ -68,6 +77,19 @@ public class EditController {
             interval.setText(Integer.toString(task.getInterval()/1000));
             if (task.isActive()) active.setText("YES");
             else active.setText("NO");
+        }
+    }
+
+    public void ifSelected() {
+        if (checker.isSelected()) {
+            endPicker.setVisible(true);
+            end.setVisible(true);
+            interval.setVisible(true);
+        }
+        else {
+            endPicker.setVisible(false);
+            end.setVisible(false);
+            interval.setVisible(false);
         }
     }
 
@@ -80,24 +102,24 @@ public class EditController {
         SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH);
         if (isInputValid()) {
             task.setTitle(title.getText());
-            try {
+            if (checker.isSelected()) {
                 task.setInterval(Integer.parseInt(interval.getText())*1000);
-                    try {
-                        Date startDate = sdf2.parse(startPicker.getValue() + " " + start.getText());
-                        Date endDate = sdf2.parse(endPicker.getValue() + " " + end.getText());
-                        if (startDate.before(endDate)) {
-                            task.setStart(startDate);
-                            task.setEnd(endDate);
-                            dialogStage.close();
-                        }
-                        else MyAlerts.timeDateAlert();
-                    } catch (ParseException e1) {
-                        MyAlerts.formatDateAlert();
-                    }
-                }
-                catch (NumberFormatException n) {
                 try {
-                    System.out.println(startPicker.getValue());
+                    Date startDate = sdf2.parse(startPicker.getValue() + " " + start.getText());
+                    Date endDate = sdf2.parse(endPicker.getValue() + " " + end.getText());
+                    if (startDate.before(endDate)) {
+                        task.setStart(startDate);
+                        task.setEnd(endDate);
+                        dialogStage.close();
+                    }
+                    else MyAlerts.timeDateAlert();
+                } catch (ParseException e1) {
+                    MyAlerts.formatDateAlert();
+                }
+            }
+            else {
+                task.setInterval(0);
+                try {
                     task.setStart(sdf2.parse(startPicker.getValue() + " " + start.getText()));
                     dialogStage.close();
                 } catch (ParseException e) {
@@ -125,6 +147,9 @@ public class EditController {
         }
         if (start.getText() == null || start.getText().length() == 0) {
             errorMessage += "Start date is empty\n";
+        }
+        if (checker.isSelected() && (interval.getText() == null || interval.getText().length() == 0)) {
+            errorMessage += "Repeat task must have interval";
         }
         if (errorMessage.length() == 0) {
             return true;
