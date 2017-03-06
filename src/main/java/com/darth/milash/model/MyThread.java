@@ -1,5 +1,7 @@
 package com.darth.milash.model;
 
+import com.darth.milash.MainApp;
+import javafx.application.Platform;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,6 +19,23 @@ import java.util.Set;
  */
 public class MyThread extends Thread{
 
+
+    private MainApp mainApp;
+
+//    @Override
+//    public void run() {
+//        while (true) {
+//            try {
+//                Thread.sleep(5000);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//            Platform.runLater(() -> {
+//                mainApp.showAlarmWindow();
+//            });
+//        }
+//    }
+//});
 
     @Override
     public void run() {
@@ -43,14 +62,21 @@ public class MyThread extends Thread{
                 System.out.println("Near task done after " + date/1000 + " sec.");
                 try {
                     Thread.sleep(date);
+                    Platform.runLater(() -> {
+                                mainApp.showAlarmWindow();
+                            });
+
                     System.out.println(sdf.format(pair.getKey()));
                     for (Task task : pair.getValue()) {
+
                         logger.info("The " + task.getTitle() + " is done.");
                         System.out.println("DING DING.......The " + task.getTitle() + " is done.");
+
                     }
                 } catch (InterruptedException e) {
                     logger.error("Blocked");
                 }
+
             }
         }
 

@@ -1,14 +1,13 @@
 package com.darth.milash;
 
 
+import com.darth.milash.controller.AlarmController;
 import com.darth.milash.controller.CalendarController;
 import com.darth.milash.controller.EditController;
 import com.darth.milash.controller.MainController;
-import com.darth.milash.model.ArrayTaskList;
-import com.darth.milash.model.Task;
-import com.darth.milash.model.TaskIO;
-import com.darth.milash.model.TaskList;
+import com.darth.milash.model.*;
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
@@ -25,6 +24,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.ParseException;
+import java.util.Date;
+import java.util.Set;
 
 public class MainApp extends Application {
 
@@ -36,7 +37,12 @@ public class MainApp extends Application {
 
 
     public static void main(String[] args) {
+
+
         launch(args);
+
+
+
     }
 
     @Override
@@ -47,8 +53,10 @@ public class MainApp extends Application {
         this.primaryStage.getIcons().add(new Image("/images/icon.png"));
 
         initRootWindowt();
-
         initTaskWindow();
+//        MyThread myThread = new MyThread();
+//        myThread.start();
+
     }
 
     public void initRootWindowt() {
@@ -66,12 +74,15 @@ public class MainApp extends Application {
 
     public void initTaskWindow() {
         try {
+//            MyThread myThread = new MyThread();
+//            myThread.start();
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("/fxml/TaskWindow.fxml"));
             AnchorPane personOverview = (AnchorPane) loader.load();
             rootLayout.setCenter(personOverview);
             MainController controller = loader.getController();
             controller.setMainApp(this);
+
         } catch (IOException e) {
             logger.error("TaskWindow data access error");
         }
@@ -141,4 +152,29 @@ public class MainApp extends Application {
             return false;
         }
     }
+
+    public boolean showAlarmWindow() {
+        try {
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("/fxml/AlarmWindow.fxml"));
+            AnchorPane page = (AnchorPane) loader.load();
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("DING DONG");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(primaryStage);
+            Scene scene = new Scene(page);
+            dialogStage.setScene(scene);
+            AlarmController alarmController = loader.getController();
+            alarmController.setDialogStage(dialogStage);
+            alarmController.alarmTask();
+            dialogStage.showAndWait();
+
+            return alarmController.isOkClicked();
+        } catch (IOException e) {
+            logger.error("AlarmWindow data access error");
+            return false;
+        }
+    }
+
+
 }

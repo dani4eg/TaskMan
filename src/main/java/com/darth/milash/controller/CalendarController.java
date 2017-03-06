@@ -55,7 +55,6 @@ public class CalendarController {
         SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
         Date sdate = new Date();
         Date edate = new Date(sdate.getTime() + (66400000));
-        System.out.println(list);
         Map<Date, Set<Task>> map = Tasks.calendar(list, sdate, edate);
         dateColumn.setCellValueFactory(param -> new SimpleStringProperty(sdf.format(param.getValue().getKey())));
         tasksColumn.setCellValueFactory(param -> new SimpleStringProperty(taskSet(param.getValue().getValue()).toString2()));

@@ -1,6 +1,7 @@
 package com.darth.milash.controller;
 
 import com.darth.milash.model.*;
+import javafx.application.Platform;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -11,10 +12,10 @@ import javafx.scene.control.TableView;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
+import java.util.*;
 
 public class MainController {
     private static String formatDate = "dd.MM.yyyy HH:mm:ss";
@@ -46,8 +47,10 @@ public class MainController {
 
         taskTable.getSelectionModel().selectedItemProperty().addListener(
                 (observable, oldValue, newValue) -> showTaskDetails(newValue));
+
         list = new ArrayTaskList();
         TaskIO.read(list, new FileReader(fileName));
+        gogo();
     }
 
     public void setMainApp(MainApp mainApp) {
@@ -156,4 +159,42 @@ public class MainController {
     public void handleCalendar() {
         mainApp.showCalendarWindow();
             }
+
+    @FXML
+    public void handleTest() {
+    mainApp.showAlarmWindow();
+    }
+
+    public void gogo() {
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                String formatDate = "dd.MM.yyyy HH.mm.ss";
+                SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
+                long date;
+                Date sdate = new Date();
+                Date edate = new Date(sdate.getTime() + (66400000));
+                Map<Date, Set<Task>> map = Tasks.calendar(list, sdate, edate);
+                for (Map.Entry<Date, Set<Task>> pair : map.entrySet()) {
+                    date = pair.getKey().getTime() - (sdate.getTime());
+                    sdate = pair.getKey();
+                    System.out.println("Near task done after " + date / 1000 + " sec.");
+                    try {
+                        Thread.sleep(date);
+                        Platform.runLater(() -> {
+                            mainApp.showAlarmWindow();
+                        });
+                        for (Task task : pair.getValue()) {
+                            System.out.println("DING DING.......The " + task.getTitle() + " is done.");
+                        }
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        });
+
+        thread.start();
+
+    }
 }
