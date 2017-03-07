@@ -78,14 +78,13 @@
                         </GridPane>
                         <HBox alignment="BOTTOM_RIGHT" layoutX="168.0" layoutY="359.0" spacing="10.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="168.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="359.0">
                             <children>
+                        <Button mnemonicParsing="false" onAction="#handleCloneTask" text="Clone" />
                                 <Button mnemonicParsing="false" onAction="#handleNewTask" text="New..." />
                                 <Button mnemonicParsing="false" onAction="#handleEditTask" text="Edit..." />
                                 <Button mnemonicParsing="false" onAction="#deleteTask" text="Delete" />
                             </children>
                         </HBox>
                   <Button layoutX="16.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleCalendar" text="Calendar" />
-                  <Button layoutX="87.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleCloneTask" text="Clone" />
-                  <Button layoutX="134.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleTest" text="Test" />
                     </children>
                 </AnchorPane>
             </items>

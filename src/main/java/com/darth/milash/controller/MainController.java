@@ -8,11 +8,9 @@ import javafx.scene.control.Label;
 import com.darth.milash.MainApp;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -39,6 +37,8 @@ public class MainController {
     private Label active;
 
     private MainApp mainApp;
+
+    Thread thread;
 
     @FXML
     public void initialize() throws FileNotFoundException, ParseException {
@@ -134,6 +134,7 @@ public class MainController {
             list.getTask(selectedIndex).setActive(selectedPerson.isActive());
             taskTable.getItems().set(selectedIndex, selectedPerson);
             TaskIO.writeText(list, new File(fileName));
+
         }
     }
 
@@ -152,6 +153,7 @@ public class MainController {
             tempTask.setActive(selectedPerson.isActive());
             list.add(tempTask);
             TaskIO.writeText(list, new File(fileName));
+
         }
     }
 
@@ -160,17 +162,11 @@ public class MainController {
         mainApp.showCalendarWindow();
             }
 
-    @FXML
-    public void handleTest() {
-    mainApp.showAlarmWindow();
-    }
-
     public void gogo() {
-        Thread thread = new Thread(new Runnable() {
+         thread = new Thread(new Runnable() {
             @Override
             public void run() {
                 String formatDate = "dd.MM.yyyy HH.mm.ss";
-                SimpleDateFormat sdf = new SimpleDateFormat(formatDate, Locale.ENGLISH);
                 long date;
                 Date sdate = new Date();
                 Date edate = new Date(sdate.getTime() + (66400000));
@@ -181,20 +177,20 @@ public class MainController {
                     System.out.println("Near task done after " + date / 1000 + " sec.");
                     try {
                         Thread.sleep(date);
-                        Platform.runLater(() -> {
-                            mainApp.showAlarmWindow();
-                        });
+
                         for (Task task : pair.getValue()) {
                             System.out.println("DING DING.......The " + task.getTitle() + " is done.");
+                            Platform.runLater(() -> {
+                                mainApp.showAlarmWindow(pair.getKey(), task.getTitle());
+                            });
                         }
                     } catch (InterruptedException e) {
-                        e.printStackTrace();
+                        mainApp.logger.error("Error");
                     }
                 }
             }
         });
-
+        thread.setDaemon(true);
         thread.start();
-
     }
 }

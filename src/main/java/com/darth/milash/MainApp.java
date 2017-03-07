@@ -7,7 +7,6 @@ import com.darth.milash.controller.EditController;
 import com.darth.milash.controller.MainController;
 import com.darth.milash.model.*;
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
@@ -19,17 +18,15 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.ParseException;
 import java.util.Date;
-import java.util.Set;
 
 public class MainApp extends Application {
 
-    Logger logger = LoggerFactory.getLogger(ArrayTaskList.class);
+    public Logger logger = LoggerFactory.getLogger(ArrayTaskList.class);
     private static TaskList list = new ArrayTaskList();
     private Stage primaryStage;
     private BorderPane rootLayout;
@@ -37,12 +34,7 @@ public class MainApp extends Application {
 
 
     public static void main(String[] args) {
-
-
         launch(args);
-
-
-
     }
 
     @Override
@@ -54,9 +46,6 @@ public class MainApp extends Application {
 
         initRootWindowt();
         initTaskWindow();
-//        MyThread myThread = new MyThread();
-//        myThread.start();
-
     }
 
     public void initRootWindowt() {
@@ -74,8 +63,6 @@ public class MainApp extends Application {
 
     public void initTaskWindow() {
         try {
-//            MyThread myThread = new MyThread();
-//            myThread.start();
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("/fxml/TaskWindow.fxml"));
             AnchorPane personOverview = (AnchorPane) loader.load();
@@ -153,7 +140,7 @@ public class MainApp extends Application {
         }
     }
 
-    public boolean showAlarmWindow() {
+    public boolean showAlarmWindow(Date date, String task) {
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("/fxml/AlarmWindow.fxml"));
@@ -166,7 +153,7 @@ public class MainApp extends Application {
             dialogStage.setScene(scene);
             AlarmController alarmController = loader.getController();
             alarmController.setDialogStage(dialogStage);
-            alarmController.alarmTask();
+            alarmController.alarmTask(date, task);
             dialogStage.showAndWait();
 
             return alarmController.isOkClicked();

@@ -1,4 +1,4 @@
-"RRRRR3" from [2017-02-24 11:11:11.000] to [2017-03-08 11:11:11.000] every [15 seconds] inactive;
+"RRRRR3" from [2017-02-24 11:11:11.000] to [2017-03-08 11:11:11.000] every [20 seconds] inactive;
 "buum1" from [2017-02-24 11:11:11.000] to [2017-02-25 11:11:11.000] every [1 hour] inactive;
 "cxvxzxxzczx" from [2017-02-24 11:11:11.000] to [2017-02-28 11:11:11.000] every [1 hour] inactive;
 "Task8" at [2017-09-05 23:11:11.000] inactive;
