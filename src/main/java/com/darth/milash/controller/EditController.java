@@ -135,6 +135,10 @@ public class EditController {
             if (chYes.isSelected()) task.setActive(true);
             else task.setActive(false);
             okClicked = true;
+            MainController.edit = true;
+            synchronized (MainController.MONITOR) {
+                MainController.MONITOR.notifyAll();
+            }
         }
         else okClicked = false;
     }

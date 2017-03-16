@@ -19,6 +19,8 @@ public class MainController {
     private static String formatDate = "dd.MM.yyyy HH:mm:ss";
     private static String fileName = "files/tFile.txt";
     private static TaskList list;
+    public static final Object MONITOR = new Object();
+    public static boolean edit = false;
 
     @FXML
     private TableView<Task> taskTable;
@@ -38,8 +40,6 @@ public class MainController {
 
     private MainApp mainApp;
 
-    Thread thread;
-
     @FXML
     public void initialize() throws FileNotFoundException, ParseException {
         titleColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getTitle()));
@@ -50,7 +50,9 @@ public class MainController {
 
         list = new ArrayTaskList();
         TaskIO.read(list, new FileReader(fileName));
-        gogo();
+        myThread.setDaemon(true);
+        myThread.start();
+
     }
 
     public void setMainApp(MainApp mainApp) {
@@ -94,6 +96,9 @@ public class MainController {
             taskTable.getItems().remove(selectedIndex);
             list.remove(list.getTask(selectedIndex));
             TaskIO.writeText(list, new File(fileName));
+            synchronized( MONITOR ) {
+                MONITOR.notifyAll();
+            }
         }
         else {
             MyAlerts.chooseAlert(mainApp);
@@ -113,6 +118,9 @@ public class MainController {
             tempTask.setActive(tempTask.isActive());
             list.add(tempTask);
             TaskIO.writeText(list, new File(fileName));
+            synchronized (MONITOR) {
+                MONITOR.notifyAll();
+            }
         }
     }
 
@@ -153,7 +161,9 @@ public class MainController {
             tempTask.setActive(selectedPerson.isActive());
             list.add(tempTask);
             TaskIO.writeText(list, new File(fileName));
-
+            synchronized (MONITOR) {
+                MONITOR.notifyAll();
+            }
         }
     }
 
@@ -162,35 +172,48 @@ public class MainController {
         mainApp.showCalendarWindow();
             }
 
-    public void gogo() {
-         thread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                String formatDate = "dd.MM.yyyy HH.mm.ss";
-                long date;
+
+    Thread myThread = new Thread(new Runnable() {
+        @Override
+        public void run() {
+            while (true) {
+                long waitmills;
                 Date sdate = new Date();
                 Date edate = new Date(sdate.getTime() + (66400000));
-                Map<Date, Set<Task>> map = Tasks.calendar(list, sdate, edate);
-                for (Map.Entry<Date, Set<Task>> pair : map.entrySet()) {
-                    date = pair.getKey().getTime() - (sdate.getTime());
-                    sdate = pair.getKey();
-                    System.out.println("Near task done after " + date / 1000 + " sec.");
-                    try {
-                        Thread.sleep(date);
 
-                        for (Task task : pair.getValue()) {
-                            System.out.println("DING DING.......The " + task.getTitle() + " is done.");
-                            Platform.runLater(() -> {
-                                mainApp.showAlarmWindow(pair.getKey(), task.getTitle());
-                            });
+                Map<Date, Set<Task>> map = Tasks.calendar(list, sdate, edate);
+                if (map.isEmpty()) {
+                    try {
+                        synchronized (MONITOR) {
+                            MONITOR.wait();
+                        }
+                    } catch (InterruptedException e1) {
+                        mainApp.logger.error("Error");
+                    }
+                }
+                for (Map.Entry<Date, Set<Task>> pair : map.entrySet()) {
+                    int size = list.size();
+                    waitmills = pair.getKey().getTime() - (sdate.getTime());
+                    sdate = pair.getKey();
+                    edit = false;
+                    try {
+                        synchronized (MONITOR) {
+                            MONITOR.wait(waitmills);
                         }
                     } catch (InterruptedException e) {
                         mainApp.logger.error("Error");
                     }
+                    if (size == list.size() && !edit) {
+                        for (Task task : pair.getValue()) {
+                            Platform.runLater(() -> {
+                                mainApp.showAlarmWindow(pair.getKey(), task.getTitle());
+                            });
+                        }
+                    } else {
+                        break;
+                    }
                 }
             }
-        });
-        thread.setDaemon(true);
-        thread.start();
-    }
+        }
+    });
 }

@@ -1,6 +1,5 @@
 package com.darth.milash.controller;
 
-import com.darth.milash.model.Task;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;

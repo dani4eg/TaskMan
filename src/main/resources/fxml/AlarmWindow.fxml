@@ -5,15 +5,15 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="98.0" prefWidth="251.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.darth.milash.controller.AlarmController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="185.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.darth.milash.controller.AlarmController">
    <children>
-      <Button contentDisplay="CENTER" layoutX="95.0" layoutY="59.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="25.0" prefWidth="61.0" text="Ok" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="95.0" AnchorPane.topAnchor="60.0" />
-      <Label fx:id="alarmTask" alignment="CENTER" layoutX="126.0" layoutY="14.0" prefHeight="28.0" prefWidth="72.0" text="Label" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+      <Button contentDisplay="CENTER" layoutX="95.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="28.0" prefWidth="145.0" text="Ok" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="95.0" AnchorPane.topAnchor="147.0" />
+      <Label fx:id="alarmTask" alignment="CENTER" layoutX="14.0" layoutY="46.0" prefHeight="87.0" prefWidth="314.0" text="Label" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="46.0">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label fx:id="alarmDate" alignment="CENTER" layoutX="14.0" layoutY="10.0" prefHeight="28.0" prefWidth="139.0" text="Label" AnchorPane.leftAnchor="10.0">
+      <Label fx:id="alarmDate" alignment="CENTER" layoutX="14.0" layoutY="10.0" prefHeight="28.0" prefWidth="314.0" text="Label" AnchorPane.leftAnchor="10.0">
          <font>
             <Font size="16.0" />
          </font>
