@@ -142,6 +142,9 @@ public class MainController {
             list.getTask(selectedIndex).setActive(selectedPerson.isActive());
             taskTable.getItems().set(selectedIndex, selectedPerson);
             TaskIO.writeText(list, new File(fileName));
+            synchronized (MONITOR) {
+                MONITOR.notifyAll();
+            }
 
         }
     }

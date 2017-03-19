@@ -136,9 +136,9 @@ public class EditController {
             else task.setActive(false);
             okClicked = true;
             MainController.edit = true;
-            synchronized (MainController.MONITOR) {
-                MainController.MONITOR.notifyAll();
-            }
+//            synchronized (MainController.MONITOR) {
+//                MainController.MONITOR.notifyAll();
+//            }
         }
         else okClicked = false;
     }

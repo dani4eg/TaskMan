@@ -54,6 +54,7 @@ public class MainApp extends Application {
             loader.setLocation(getClass().getResource("/fxml/RootWindow.fxml"));
             rootLayout = (BorderPane) loader.load();
             Scene scene = new Scene(rootLayout);
+            primaryStage.setResizable(false);
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch (IOException e) {
@@ -100,6 +101,7 @@ public class MainApp extends Application {
             dialogStage.setTitle("Edit Task");
             dialogStage.initModality(Modality.WINDOW_MODAL);
             dialogStage.initOwner(primaryStage);
+            dialogStage.setResizable(false);
             Scene scene = new Scene(page);
             dialogStage.setScene(scene);
 
@@ -125,6 +127,7 @@ public class MainApp extends Application {
             Stage dialogStage = new Stage();
             dialogStage.setTitle("Calendar");
             dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.setResizable(false);
             dialogStage.initOwner(primaryStage);
             Scene scene = new Scene(page);
             dialogStage.setScene(scene);
@@ -148,6 +151,7 @@ public class MainApp extends Application {
             Stage dialogStage = new Stage();
             dialogStage.setTitle("DING DONG");
             dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.setResizable(false);
             dialogStage.initOwner(primaryStage);
             Scene scene = new Scene(page);
             dialogStage.setScene(scene);
